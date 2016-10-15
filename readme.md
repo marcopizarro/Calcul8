@@ -1,4 +1,4 @@
-# Mojibar [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+# Taskbar App
 
 A menubar app adaptation of [Emoji searcher](http://emoji.muan.co).
 
