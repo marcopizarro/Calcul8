@@ -1,7 +1,7 @@
 var menubar = require('menubar')
 var ipc = require('electron').ipcMain
 var globalShortcut = require('electron').globalShortcut
-var mb = menubar({ dir: __dirname + '/app', width: 440, height: 230, icon: __dirname + '/app/Icon-Template.png', preloadWindow: true, windowPosition: 'topRight' })
+var mb = menubar({ dir: __dirname + '/app', width: 330, height: 325, icon: __dirname + '/app/Icon-Template.png', preloadWindow: true, windowPosition: 'topRight' })
 var Menu = require('electron').Menu
 
 mb.on('show', function () {
@@ -28,7 +28,7 @@ ipc.on('update-preference', function (evt, pref, initialization) {
 
 var template = [
   {
-    label: 'Mojibar',
+    label: 'Calculator',
     submenu: [
       {
         label: 'Undo',

@@ -1,7 +1,7 @@
 {
-  "name": "mojibar",
+  "name": "Calculate",
   "version": "2.2.2",
-  "description": "A menubar app adaptation of Emoji searcher.",
+  "description": "",
   "main": "index.js",
   "dependencies": {
     "emojilib": "2.0.2",
@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muan/mojibar.git"
+    "url": "git+https://github.com/marcopizarro/taskbarapp.git"
   },
-  "author": "Mu-An Chiou <me@muanchiou.com>",
+  "author": "Macro Pizarro-Silva & Brandon Gatanaga <marcoinnovates@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/muan/mojibar/issues"
+    "url": "https://github.com/marcopizarro/taskbarapp/issues"
   },
-  "homepage": "https://github.com/muan/mojibar#readme"
+  "homepage": "https://github.com/marcopizarro/taskbarapp#readme"
 }
