@@ -9,11 +9,7 @@ A menubar app adaptation of [Emoji searcher](http://emoji.muan.co).
 
 [Download the latest version for Mac on the releases page](https://github.com/marcopizarro/taskbarapp/releases) (and drag into your apps folder.)
 
-//#### :triangular_flag_on_post: Install using [Homebrew Cask](http://caskroom.io/)
 
-//```
-//$ brew cask install mojibar
-//```
 
 #### :triangular_flag_on_post: Launch Mojibar
 
