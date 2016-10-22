@@ -1,6 +1,6 @@
 # Taskbar App
 
-
+<!---
 ## Install
 
 #### :triangular_flag_on_post: Download and drag
@@ -30,12 +30,13 @@ Exit.
 <kbd>command + q</kbd><br>
 Quit Mojibar (while window is open).
 
+--->
 ## Build
 
 :construction:
 
 ```
-$ git clone https://github.com/muan/mojibar.git
+$ git clone https://github.com/marcopizarro/taskbarapp.git
 $ cd mojibar
 $ npm install
 $ npm start
