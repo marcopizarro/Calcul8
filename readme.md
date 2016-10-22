@@ -1,7 +1,5 @@
 # Taskbar App
 
-A menubar app adaptation of [Emoji searcher](http://emoji.muan.co).
-
 
 ## Install
 
@@ -26,21 +24,6 @@ Open preference (while window is open).
 <kbd>👆/👇/👈/👉</kbd><br>
 Navigate between emojis.
 
-<kbd>enter</kbd><br>
-Copy emoji unicode char and exit. For example: `💩`.
-
-<kbd>shift + enter</kbd><br>
-Copy emoji code and exit. For example: `:poop:`.
-
-<kbd>space</kbd><br>
-Next page.
-
-<kbd>shift + space</kbd><br>
-Previous page.
-
-<kbd>/</kbd><br>
-Jump to the search field.
-
 <kbd>esc</kbd><br>
 Exit.
 
@@ -60,7 +43,7 @@ $ npm start
 
 ## Built with
 
-- [maxogden/menubar](https://github.com/maxogden/menubar)
+
 - [muan/emojilib](https://github.com/muan/emojilib)
 
 ## :heart:
