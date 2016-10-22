@@ -10,33 +10,37 @@
     <body>
 			<div id="calculator">
 				<!-- Screen and clear key -->
+
+<form name="case">
+
 				<div class="top">
-					<span class="clear">C</span>
-					<div class="screen">464563</div>
+					<span onclick="runC()" class="clear">C</span>
+					<input name="display" id="display" class="screen">
 				</div>
 
 				<div class="keys">
 					<!-- operators and other keys -->
-					<span>7</span>
-					<span>8</span>
-					<span>9</span>
-					<span class="operator">+</span>
-					<span>4</span>
-					<span>5</span>
-					<span>6</span>
-					<span class="operator">-</span>
-					<span>1</span>
-					<span>2</span>
-					<span>3</span>
-					<span class="operator">÷</span>
-					<span>0</span>
-					<span>.</span>
-					<span class="eval">=</span>
-					<span class="operator">x</span>
+					<span onclick="run7()">7</span>
+					<span onclick="run8()">8</span>
+					<span onclick="run9()">9</span>
+					<span onclick="runPlus()" class="operator">+</span>
+					<span onclick="run4()">4</span>
+					<span onclick="run5()">5</span>
+					<span onclick="run6()">6</span>
+					<span onclick="runMinus()" class="operator">-</span>
+					<span onclick="run1()">1</span>
+					<span onclick="run2()">2</span>
+					<span onclick="run3()">3</span>
+					<span onclick="runDivide()" class="operator">÷</span>
+					<span onclick="run0()">0</span>
+					<span onclick="runDot()">.</span>
+					<span onclick="runEquals()" class="eval">=</span>
+					<span onclick="runMultiply()" class="operator">x</span>
 				</div>
 			</div>
 
-			<!-- PrefixFree -->
-			<script src="http://thecodeplayer.com/uploads/js/prefixfree-1.0.7.js" type="text/javascript" type="text/javascript"></script>
+<form>
+
+
     </body>
 </html>

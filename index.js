@@ -1,7 +1,7 @@
 var menubar = require('menubar')
 var ipc = require('electron').ipcMain
 var globalShortcut = require('electron').globalShortcut
-var mb = menubar({ dir: __dirname + '/app', width: 330, height: 325, icon: __dirname + '/app/Icon-Template.png', preloadWindow: true, windowPosition: 'topRight' })
+var mb = menubar({ dir: __dirname + '/app', width: 325, height: 265, icon: __dirname + '/app/Icon-Template.png', preloadWindow: true, windowPosition: 'topRight' })
 var Menu = require('electron').Menu
 
 mb.on('show', function () {
