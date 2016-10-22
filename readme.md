@@ -37,7 +37,7 @@ Quit Mojibar (while window is open).
 
 ```
 $ git clone https://github.com/marcopizarro/taskbarapp.git
-$ cd mojibar
+$ cd taskbarapp
 $ npm install
 $ npm start
 ```
@@ -45,6 +45,6 @@ $ npm start
 ## Built with
 
 
-- [muan/emojilib](https://github.com/muan/emojilib)
+- [muan/mojibar](https://github.com/muan/mojibar)
 
 ## :heart:
