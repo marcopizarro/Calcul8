@@ -1,5 +1,6 @@
 
 function run1(){
+	
 	document.case.display.value += "1"
 };
 function run2(){

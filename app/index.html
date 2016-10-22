@@ -14,11 +14,14 @@
 <form name="case">
 
 				<div class="top">
-					<span onclick="runC()" class="clear">C</span>
-					<input name="display" id="display" class="screen">
+					<span onclick="runC()" class="clear noselect">C</span>
+
+					<input name="display" id="display" class="screen" readonly>
+
 				</div>
 
 				<div class="keys">
+          <div class="noselect">
 					<!-- operators and other keys -->
 					<span onclick="run7()">7</span>
 					<span onclick="run8()">8</span>
@@ -38,7 +41,7 @@
 					<span onclick="runMultiply()" class="operator">x</span>
 				</div>
 			</div>
-
+    </div>
 <form>
 
 

@@ -13,6 +13,7 @@ button {
   box-sizing: border-box;
 }
 
+
 .prepend-mag {
   position: fixed;
   z-index: 2;
