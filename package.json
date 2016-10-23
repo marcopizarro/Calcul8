@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "emojilib": "2.0.2",
     "menubar": "^5.1.0"
   },
   "devDependencies": {
@@ -14,14 +13,14 @@
   },
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . Mojibar --platform=darwin --arch=x64 --version=1.3.2 --overwrite --icon=Calculator",
+    "build": "electron-packager . Calculate --platform=darwin --arch=x64 --version=1.3.2 --overwrite --icon=Calculator",
     "test": "standard index.js app/search.js app/settings.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marcopizarro/taskbarapp.git"
   },
-  "author": "Macro Pizarro-Silva & Brandon Gatanaga <marcoinnovates@gmail.com>",
+  "author": "Marco Pizarro-Silva & Brandon Gatanaga <marcoinnovates@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marcopizarro/taskbarapp/issues"
