@@ -38,8 +38,8 @@ Quit Mojibar (while window is open).
 ```
 $ git clone https://github.com/marcopizarro/taskbarapp.git
 $ cd taskbarapp
-$ npm install
-$ npm start
+$ npm install && npm start
+
 ```
 
 ## Built with
