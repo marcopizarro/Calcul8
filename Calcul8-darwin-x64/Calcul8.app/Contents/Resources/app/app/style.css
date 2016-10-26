@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 
 	/* Better text styling */
-	font: bold 14px Arial, sans-serif;
+	font: bold 14px Lato, sans-serif;
 }
 
 /* Finally adding some IE9 fallbacks for gradients to finish things up */
@@ -16,22 +16,21 @@
 html {
 	height: 100%;
 	background: white;
-	background: radial-gradient(circle, #fff 20%, #ccc);
+	background: #9dd2ea;
 	background-size: cover;
 }
 
 /* Using box shadows to create 3D effects */
 #calculator {
 	width: 325px;
-	height: 300;
+	height: 265;
 
 /*	margin: 100px auto;*/
-	padding: 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
 
 	background: #9dd2ea;
 	background: linear-gradient(#9dd2ea, #8bceec);
 	border-radius: 3px;
-	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Top portion */
@@ -144,4 +143,56 @@ html {
 .top span.clear:active {
 	top: 4px;
 	box-shadow: 0px 0px #d3545d;
+}
+
+/* Tabz*/
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+
+/* Style the links inside the list items */
+
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 11px;
+}
+
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #9dd2ea;
+		border-top-right-radius: 3px;
+		border-top-left-radius: 3px;
+		color: white;
+}
+
+.noselect {
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
