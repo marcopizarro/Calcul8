@@ -8,42 +8,88 @@
         <script src="script.js"></script>
     </head>
     <body>
-			<div id="calculator">
-				<!-- Screen and clear key -->
 
-<form name="case">
 
-				<div class="top">
-					<span onclick="runC()" class="clear noselect">C</span>
+  <ul class="tab">
+    <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Calcul8')" id="defaultOpen">Caclul8</a></li>
 
-					<input name="display" id="display" class="screen" readonly>
+    <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Convert')">Convert</a></li>
 
-				</div>
+   <li style="float: right;"><a href="javascript:void(0)" class="tablinks rightAlign" onclick="openTab(event, 'Settings')">i</a></li>
+  </ul>
 
-				<div class="keys">
-          <div class="noselect">
-					<!-- operators and other keys -->
-					<span onclick="run7()">7</span>
-					<span onclick="run8()">8</span>
-					<span onclick="run9()">9</span>
-					<span onclick="runPlus()" class="operator">+</span>
-					<span onclick="run4()">4</span>
-					<span onclick="run5()">5</span>
-					<span onclick="run6()">6</span>
-					<span onclick="runMinus()" class="operator">-</span>
-					<span onclick="run1()">1</span>
-					<span onclick="run2()">2</span>
-					<span onclick="run3()">3</span>
-					<span onclick="runDivide()" class="operator">÷</span>
-					<span onclick="run0()">0</span>
-					<span onclick="runDot()">.</span>
-					<span onclick="runEquals()" class="eval">=</span>
-					<span onclick="runMultiply()" class="operator">x</span>
-				</div>
-			</div>
+  <div id="Calcul8" class="tabcontent">
+
+    <!-- <p>Insert Calc Code</p> -->
+    <div id="calculator">
+      <!-- Screen and clear key -->
+
+    <form name="case">
+
+      <div class="top">
+        <span onclick="runC()" class="clear noselect">C</span>
+
+        <input name="display" id="display" class="screen" readonly>
+
+      </div>
+
+      <div class="keys">
+        <div class="noselect">
+        <!-- operators and other keys -->
+        <span onclick="run7()">7</span>
+        <span onclick="run8()">8</span>
+        <span onclick="run9()">9</span>
+        <span onclick="runPlus()" class="operator">+</span>
+        <span onclick="run4()">4</span>
+        <span onclick="run5()">5</span>
+        <span onclick="run6()">6</span>
+        <span onclick="runMinus()" class="operator">-</span>
+        <span onclick="run1()">1</span>
+        <span onclick="run2()">2</span>
+        <span onclick="run3()">3</span>
+        <span onclick="runDivide()" class="operator">÷</span>
+        <span onclick="run0()">0</span>
+        <span onclick="runDot()">.</span>
+        <span onclick="runEquals()" class="eval">=</span>
+        <span onclick="runMultiply()" class="operator">x</span>
+      </div>
     </div>
-<form>
+    </div>
+    <form>
+  </div>
 
+  <div id="Convert" class="tabcontent">
+
+    <h3>Convert</h3>
+    <p>Insert Convert Code</p>
+
+  </div>
+
+  <div id="Settings" class="tabcontent">
+
+    <h3>Settings</h3>
+    <p>Insert Settings Here</p>
+
+  </div>
+
+  <script>
+  function openTab(evt, tabName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+  }
+
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
 
     </body>
 </html>

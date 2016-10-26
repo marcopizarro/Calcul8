@@ -1,8 +1,27 @@
 var menubar = require('menubar')
 var ipc = require('electron').ipcMain
 var globalShortcut = require('electron').globalShortcut
-var mb = menubar({ dir: __dirname + '/app', width: 325, height: 265, icon: __dirname + '/app/Icon-Template.png', preloadWindow: true, windowPosition: 'topRight' })
+var mb = menubar({ dir: __dirname + '/app', width: 325, height: 295, icon: __dirname + '/app/Icon-Template.png', preloadWindow: true, windowPosition: 'topRight' })
 var Menu = require('electron').Menu
+
+//test 001
+var AutoLaunch = require('auto-launch');
+
+var appLauncher = new AutoLaunch({
+    name: 'Calcul8',
+    //path: '/Applications/Calcul8.app'// for actual app
+    path: '/github/calcul8/Calcul8-darwin-x64/Calcul8.app' // for testing
+});
+
+appLauncher.enable();
+
+appLauncher.isEnabled().then(function(enabled){
+    if(enabled) return;
+    return appLauncher.enable()
+}).then(function(err){
+
+});
+// end Test 001
 
 mb.on('show', function () {
   mb.window.webContents.send('show')
@@ -85,7 +104,7 @@ var template = [
 ]
 
 mb.on('ready', function ready () {
-  // Build default menu for text editing and devtools. (gone since electron 0.25.2)
+  // Build default `menu` for text editing and devtools. (gone since electron 0.25.2)
   var menu = Menu.buildFromTemplate(template)
   Menu.setApplicationMenu(menu)
 })

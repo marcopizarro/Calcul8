@@ -37,7 +37,7 @@ Quit Mojibar (while window is open).
 
 ```
 $ git clone https://github.com/marcopizarro/calcul8.git
-$ cd taskbarapp
+$ cd calcul8
 $ npm install && npm start
 
 ```

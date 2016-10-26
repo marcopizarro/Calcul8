@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "auto-launch": "^5.0.1",
     "menubar": "^5.1.0"
   },
   "devDependencies": {
@@ -18,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcopizarro/taskbarapp.git"
+    "url": "git+https://github.com/marcopizarro/calcul8.git"
   },
   "author": "Marco Pizarro-Silva & Brandon Gatanaga <marcoinnovates@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marcopizarro/taskbarapp/issues"
+    "url": "https://github.com/marcopizarro/calcul8/issues"
   },
-  "homepage": "https://github.com/marcopizarro/taskbarapp#readme"
+  "homepage": "https://github.com/marcopizarro/calcul8#readme"
 }
