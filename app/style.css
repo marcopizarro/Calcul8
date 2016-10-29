@@ -18,6 +18,7 @@ html {
 	background: white;
 	background: #9dd2ea;
 	background-size: cover;
+	resize: none;
 }
 
 /* Using box shadows to create 3D effects */
@@ -184,7 +185,7 @@ ul.tab li a:focus, .active {
     background-color: #9dd2ea;
 		border-top-right-radius: 3px;
 		border-top-left-radius: 3px;
-		color: white;
+		color: black;
 }
 
 .noselect {

@@ -6,7 +6,7 @@ var Menu = require('electron').Menu
 
 //test 001
 var AutoLaunch = require('auto-launch');
-
+/*
 var appLauncher = new AutoLaunch({
     name: 'Calcul8',
     //path: '/Applications/Calcul8.app'// for actual app
@@ -22,7 +22,7 @@ appLauncher.isEnabled().then(function(enabled){
 
 });
 // end Test 001
-
+*/
 mb.on('show', function () {
   mb.window.webContents.send('show')
 })
